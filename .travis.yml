@@ -1,7 +1,10 @@
 language: node_js
 node_js:
- - '12'
+- '12'
 before_install:
- - npm i
+- npm i
 script:
- - npm run test
+- npm run test
+deploy:
+  api_key:
+    secure: WcWRqd6kPmoJd2yw4uex3Kt5OjRXtUXlf0SOoldwYGU/iB9adLVMNroL3AbtzYGH1K7KCffPdHH5EOkxQOelMZZrbmhaLBAWK45Szmrxv9LeS9kKbSdekEafS/HI5ygOrB9NcMxoJBTCIxE6tqdi+p6Z0jDRIsbPQfLJpnOrEHzkaqRF8HauilNO2Su5akQ/xjaf7DhhXsDTjhrIUYQug1whvod4YEXHnUMSREvRuFCCPNljQXdib7YaqgNFttKmo1T+lGCCRiF6QWKyKZA+vkCQ0e9rlhPmUEPo42Ondld4Ep3o0Bdu88zxNmuhPLmWdsgrL5OmdTUgVjkcK+a6YH+Bu7TjWtZ5RAAHsWIKQHsUYYWZBxUUsxSFK+eJIK9+cwtZNbfcWYtk/Ig1QOe1I73Y3RLq3+uflzdOJ8JOks9FQnoyP907wUeLzkBZKu94skeG+SByX8Uy0qqOPv/7/KqwXUngzAVHFx+16SB7InMCtEUT/atH9r4pLWHksu0Ur+PCjdzIXe3wHwpj0mPYovL3vGT7yfwBFhf2moeWF2SBX/pkkM4u0y1M4rPIa7i/+BaRDZeU+IzBcJzTFqitQK6M49NR1y93uWyMs/bW2B8aGDHV3SAC85UZygsEEK66hw9SsN6gK273PJhWqBXAFlC3B5ohb0xqtBSH+1jD25M=
