@@ -7,14 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --recursive --exit",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knavya123/code-20210511-navyakathi.git"
   },
-  "author": "",
+  "author": "Kathi Navya Sri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/knavya123/code-20210511-navyakathi/issues"
