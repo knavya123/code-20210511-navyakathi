@@ -1,4 +1,8 @@
-function calculate_BMI(BMI_value) {
+function calcCategoryAndHealthRisks(BMI_value) {
+	/*
+	Helper function to calculate the BMI category and health risk associated for a given BMI value.
+	*/
+
 	var res = [];
 	if(BMI_value <= 18.4) {
 		res.push("Underweight");
@@ -29,14 +33,16 @@ function calculate_BMI(BMI_value) {
 }
 
 function add_entries(data) {
+	/*
+	Helper function to calculate BMI-value, BMI category, and health risk associated for the BMI-value for a given JSON object.
+	*/
 	var Overweight_people = 0;
-	//data = JSON.parse(data);
 
 	data.forEach((obj) => {
 		var HeightM = obj.HeightCm / 100;
 
 		var BMI_value = (obj.WeightKg/(HeightM * HeightM)).toFixed(2);
-		var res = calculate_BMI(BMI_value);
+		var res = calcCategoryAndHealthRisks(BMI_value);
 		obj.BMI_value = BMI_value;
 		obj.BMI_Category = res[0];
 		obj.Health_Risk = res[1];
