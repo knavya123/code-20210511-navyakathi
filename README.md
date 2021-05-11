@@ -9,14 +9,15 @@ git clone https://github.com/knavya123/code-20210511-navyakathi.git
 	_node server.js_
 	This should bring up the server on localhost port 3000.
 ##### Step-4: Test deployment using Postman or any other API testing platform.
-> Create a new collection.
-> Create a new request.
-> Create a POST request with the URL as localhost:3000
-> Add the follow key-value pair to the Headers
+1. Create a new collection.
+2. Create a new request.
+3. Create a POST request with the URL as localhost:3000
+4. Add the follow key-value pair to the Headers
 	Key: Content-Type
 	Value: application/json
-> Add the raw JSON file to the body.
+5. Add the raw JSON file to the body.
 	Body -> raw -> JSON
+
 	[
 		{ "Gender": "Male", "HeightCm": 175, "WeightKg": 75}, 
 		{ "Gender": "Male", "HeightCm": 161, "WeightKg": 85 }, 
