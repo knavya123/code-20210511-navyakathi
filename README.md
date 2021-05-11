@@ -6,7 +6,7 @@ git clone https://github.com/knavya123/code-20210511-navyakathi.git
 ##### Step-2: Initialize the node package.  
 	npm init 
 ##### Step-3: Run the node server.
-	_node server.js_
+	node server.js
 This should bring up the server on localhost port 3000.
 ##### Step-4: Test deployment using Postman or any other API testing platform.
 1. Create a new collection.
