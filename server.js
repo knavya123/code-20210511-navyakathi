@@ -9,7 +9,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.post('/', (req, res) => {
-	res.status(200).json('Hello world');
 	result = helper.add_entries(req.body);
 	console.log(JSON.stringify(result));
 
