@@ -7,7 +7,7 @@ git clone https://github.com/knavya123/code-20210511-navyakathi.git
 	npm init 
 ##### Step-3: Run the node server.
 	_node server.js_
-	This should bring up the server on localhost port 3000.
+This should bring up the server on localhost port 3000.
 ##### Step-4: Test deployment using Postman or any other API testing platform.
 1. Create a new collection.
 2. Create a new request.
@@ -22,11 +22,9 @@ git clone https://github.com/knavya123/code-20210511-navyakathi.git
 		{ "Gender": "Male", "HeightCm": 175, "WeightKg": 75}, 
 		{ "Gender": "Male", "HeightCm": 161, "WeightKg": 85 }, 
 		{ "Gender": "Male", "HeightCm": 110, "WeightKg": 77 }, 
-		{ "Gender": "Female", "HeightCm": 166, "WeightKg": 62}, 
-		{ "Gender": "Female", "HeightCm": 150, "WeightKg": 70}, 
-		{ "Gender": "Female", "HeightCm": 167, "WeightKg": 82}
 	]
-	This should return the expected result.
+	
+This should return the expected result.
 
 ### File Contents
 node_modules
@@ -67,32 +65,32 @@ Picked Travis-CI as I've heard of it's ease-of-use.
 		{ "Gender": "Male", "HeightCm": 110, "WeightKg": 77 }, 
 	]
 ###### Sample Output:
-{
-    "data": [
-        {
-            "Gender": "Male",
-            "HeightCm": 175,
-            "WeightKg": 75,
-            "BMI_value": "24.49",
-            "BMI_Category": "Normal Weight",
-            "Health_Risk": "Low Risk"
-        },
-        {
-            "Gender": "Male",
-            "HeightCm": 161,
-            "WeightKg": 85,
-            "BMI_value": "32.79",
-            "BMI_Category": "Moderately Obese",
-            "Health_Risk": "Medium Risk"
-        },
-        {
-            "Gender": "Male",
-            "HeightCm": 110,
-            "WeightKg": 77,
-            "BMI_value": "63.64",
-            "BMI_Category": "Very Severely Obese",
-            "Health_Risk": "Very High Risk"
-        }
-    ],
-    "num_overweight_people": 0
-}
+	{
+	    "data": [
+		{
+		    "Gender": "Male",
+		    "HeightCm": 175,
+		    "WeightKg": 75,
+		    "BMI_value": "24.49",
+		    "BMI_Category": "Normal Weight",
+		    "Health_Risk": "Low Risk"
+		},
+		{
+		    "Gender": "Male",
+		    "HeightCm": 161,
+		    "WeightKg": 85,
+		    "BMI_value": "32.79",
+		    "BMI_Category": "Moderately Obese",
+		    "Health_Risk": "Medium Risk"
+		},
+		{
+		    "Gender": "Male",
+		    "HeightCm": 110,
+		    "WeightKg": 77,
+		    "BMI_value": "63.64",
+		    "BMI_Category": "Very Severely Obese",
+		    "Health_Risk": "Very High Risk"
+		}
+	    ],
+	    "num_overweight_people": 0
+	}
